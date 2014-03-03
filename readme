@@ -23,3 +23,7 @@ $ npm test
 > phantomjs test/vendor/runner.js test/index.html?noglobals=true
 
 Took 4533ms to run 672 tests. 672 passed, 0 failed.
+
+6) blob
+
+https://github.com/annie2010/underscore/blob/master/readme
