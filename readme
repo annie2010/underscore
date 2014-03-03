@@ -1,0 +1,25 @@
+1) from annie's account, in git website 
+
+fork from "ttps://github.com/jashkenas/underscore/"
+
+2) on chicago
+
+$ git clone https://github.com/annie2010/underscore
+
+3) on chicago, run "npm install" and "npm test"
+
+[ubuntu@chicago::ip-10-167-6-127:~/myrepo/underscore]$
+
+$ npm install
+$ npm test
+
+4) take a look of "package.json"
+
+5) test results,
+
+[ubuntu@chicago::ip-10-167-6-127:~/myrepo/underscore]$npm test
+
+> underscore@1.6.0 test /home/ubuntu/myrepo/underscore
+> phantomjs test/vendor/runner.js test/index.html?noglobals=true
+
+Took 4533ms to run 672 tests. 672 passed, 0 failed.
