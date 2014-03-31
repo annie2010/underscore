@@ -76,3 +76,37 @@ b=_.isFunction(a);
 console.log(a,b)
 
 console.log('\n\n=====end successfully=====')
+
+/***
+
+Runtime sample
+
+[ubuntu@chicago::ip-10-167-6-127:~/myrepo/underscore/ex_objects]$node obj_05_isElement.js 
+=====begin=====
+
+
+===1. isElement, _.isElement(obj), Returns true if obj is a DOM ele
+
+
+===2. isArray
+[ 1, 2, 3 ] true
+false false
+[Function] false
+
+
+===3. isObject
+[ 1, 2, 3 ] true
+
+
+===4. isArguemnts
+[Function] 3 true
+[ 1, 2, 3 ] false
+
+
+===5. isFunction
+[Function] true
+
+
+=====end successfully=====
+title jQuery
+***/
